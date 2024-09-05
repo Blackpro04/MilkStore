@@ -20,6 +20,7 @@ public class CartDTO {
     private float totalPrice;
     private Integer quantity;
 
+//hàm constructor
     public CartDTO() {
     }
     

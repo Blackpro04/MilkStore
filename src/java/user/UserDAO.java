@@ -32,6 +32,7 @@ public class UserDAO {
     PreparedStatement ptm= null;
     ResultSet rs= null;
     try {
+        int a;
         conn= DBUtils.getConnection();
         if(conn!= null){
             ptm= conn.prepareStatement(LOGIN);
